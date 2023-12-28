@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav__list {
+    display: flex;
+    column-gap: 50px;
+    max-width: 475px;
+}
+.list__item_link {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    
+    &.list__item_link-active {
+        color: #606060;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
